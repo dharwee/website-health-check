@@ -1,6 +1,6 @@
 # 🌐 Website Health Checker
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/<your-username>/website-health-check)](https://goreportcard.com/report/github.com/<your-username>/website-health-check)
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 A simple **Go CLI tool** to check if websites are up or down.  
@@ -39,7 +39,11 @@ go build -o healthcheck
 
 ### Examples
 Check a single website (default port 80):
+```sh
 ./healthcheck -d google.com
+```
 
 Check multiple websites:
+```sh
 ./healthcheck -d google.com -d github.com
+```
